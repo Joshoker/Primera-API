@@ -1,0 +1,23 @@
+﻿namespace Primera_API
+{
+    public class Friend
+    {
+        private string firstname { get; set; }
+        private string lastname { get; set; }
+        private string localtion { get; set; }
+        private DateTime dateOfHire { get; set; }
+
+        public Friend ()
+        {
+        }
+        public Friend (string firstname, string lastname, string location, DateTime dateOfHire)
+        {
+            this.firstname = firstname;
+            this.lastname = lastname;
+            this.localtion = localtion;
+            this.dateOfHire = dateOfHire;
+
+        }
+
+    }
+}
